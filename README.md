@@ -6,4 +6,4 @@
 
 ## development
 
-See the [kibana con
+See the [kibana contributing guide](https:/
