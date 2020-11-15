@@ -6,4 +6,4 @@
 
 ## development
 
-See the [kibana contributing guide](https:/
+See the [kibana contributing guide](https://github.com/elastic
