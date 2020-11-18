@@ -6,4 +6,4 @@
 
 ## development
 
-See the [kibana contributing guide](https://github.com/elastic
+See the [kibana contributing guide](https://github.com/elastic/kibana/blob/mas
