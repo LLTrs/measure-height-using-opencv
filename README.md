@@ -10,4 +10,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn kbn bootstrap`
 
-    Install depen
+    Install dependencies and 
