@@ -10,4 +10,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn kbn bootstrap`
 
-    Install dependencies and crosslink Kibana and all
+    Install dependencies and crosslink Kibana and all projects/plugins.
+
+ 
