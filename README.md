@@ -12,4 +12,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
     Install dependencies and crosslink Kibana and all projects/plugins.
 
-    > ***IMPORTANT:*** Use this script instead of `yarn` to install dependencies whe
+    > ***IMPORTANT:*** Use this script instead of `yarn` to install dependencies when switching branc
