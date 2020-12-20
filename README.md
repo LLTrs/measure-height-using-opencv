@@ -16,4 +16,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn start`
 
-    Sta
+    Start kibana and have it
