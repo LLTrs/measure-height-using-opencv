@@ -14,4 +14,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
     > ***IMPORTANT:*** Use this script instead of `yarn` to install dependencies when switching branches, and re-run it whenever your dependencies change.
 
-  - 
+  - `yarn start`
+
+    Sta
