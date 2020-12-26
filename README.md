@@ -16,4 +16,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn start`
 
-    Start kibana and have it include this plugin. You can pass any arguments that you would normally
+    Start kibana and have it include this plugin. You can pass any arguments that you would normally send to `bin/kibana`
+
+      ``
