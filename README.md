@@ -19,4 +19,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
     Start kibana and have it include this plugin. You can pass any arguments that you would normally send to `bin/kibana`
 
       ```
-      yarn start -
+      yarn start --elasticsearch.h
