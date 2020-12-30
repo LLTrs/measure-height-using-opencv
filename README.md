@@ -22,4 +22,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
       yarn start --elasticsearch.hosts http://localhost:9220
       ```
 
-  - 
+  - `yarn build`
+
+  
