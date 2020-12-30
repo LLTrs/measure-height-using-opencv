@@ -24,4 +24,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn build`
 
-    Build a dist
+    Build a distributable archive of your p
