@@ -26,4 +26,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
     Build a distributable archive of your plugin.
 
-  - `yarn test
+  - `yarn test:browser`
+
+    Run 
