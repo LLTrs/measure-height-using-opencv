@@ -28,4 +28,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn test:browser`
 
-    Run 
+    Run the browser tests in a re
