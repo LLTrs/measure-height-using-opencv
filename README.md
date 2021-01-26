@@ -32,4 +32,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn test:server`
 
-    R
+    Run the server tests us
