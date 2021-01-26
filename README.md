@@ -34,4 +34,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
     Run the server tests using mocha.
 
-For m
+For more information about an
