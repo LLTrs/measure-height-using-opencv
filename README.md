@@ -32,4 +32,6 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
   - `yarn test:server`
 
-    Run the server tests us
+    Run the server tests using mocha.
+
+For m
