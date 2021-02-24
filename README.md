@@ -34,4 +34,4 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
 
     Run the server tests using mocha.
 
-For more information about any of these c
+For more information about any of these commands run `yarn ${task
