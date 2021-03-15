@@ -1,1 +1,3 @@
-import exampleRoute from './server/route
+import exampleRoute from './server/routes/example';
+
+expor
