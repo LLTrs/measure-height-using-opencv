@@ -1,1 +1,1 @@
-import exampleRoute fr
+import exampleRoute from './server/route
