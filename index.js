@@ -1,3 +1,4 @@
 import exampleRoute from './server/routes/example';
 
-export default function (kib
+export default function (kibana) {
+  return new k
