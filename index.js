@@ -1,3 +1,3 @@
 import exampleRoute from './server/routes/example';
 
-expor
+export default function (kib
