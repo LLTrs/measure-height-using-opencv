@@ -1,4 +1,5 @@
 import exampleRoute from './server/routes/example';
 
 export default function (kibana) {
-  return new k
+  return new kibana.Plugin({
+  
