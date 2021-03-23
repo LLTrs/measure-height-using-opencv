@@ -5,4 +5,5 @@ export default function (kibana) {
     require: ['elasticsearch'],
     name: 'stock',
     uiExports: {
-     
+      app: {
+    
