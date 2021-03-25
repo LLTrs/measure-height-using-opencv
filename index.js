@@ -7,4 +7,4 @@ export default function (kibana) {
     uiExports: {
       app: {
         title: 'Stock',
-     
+        description: 'Stoc
