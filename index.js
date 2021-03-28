@@ -8,4 +8,5 @@ export default function (kibana) {
       app: {
         title: 'Stock',
         description: 'Stock',
-        main: 'plugins/stock/a
+        main: 'plugins/stock/app',
+      },
