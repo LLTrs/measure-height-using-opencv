@@ -10,3 +10,4 @@ export default function (kibana) {
         description: 'Stock',
         main: 'plugins/stock/app',
       },
+      hacks: [
