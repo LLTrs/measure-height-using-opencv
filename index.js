@@ -11,3 +11,4 @@ export default function (kibana) {
         main: 'plugins/stock/app',
       },
       hacks: [
+        'plugins/st
