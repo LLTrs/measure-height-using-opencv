@@ -12,4 +12,5 @@ export default function (kibana) {
       },
       hacks: [
         'plugins/stock/hack'
-   
+      ],
+      styleSheetPa
