@@ -13,4 +13,4 @@ export default function (kibana) {
       hacks: [
         'plugins/stock/hack'
       ],
-      styleSheetPaths: require('pa
+      styleSheetPaths: require('path').resolve(
