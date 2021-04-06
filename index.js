@@ -13,4 +13,5 @@ export default function (kibana) {
       hacks: [
         'plugins/stock/hack'
       ],
-      styleSheetPaths: require('path').resolve(__dirname, 'pub
+      styleSheetPaths: require('path').resolve(__dirname, 'public/app.scss'),
+    }
