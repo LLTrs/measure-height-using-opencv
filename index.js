@@ -17,4 +17,5 @@ export default function (kibana) {
     },
 
     config(Joi) {
-      retu
+      return Joi.object({
+        ena
