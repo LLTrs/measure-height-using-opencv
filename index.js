@@ -14,4 +14,7 @@ export default function (kibana) {
         'plugins/stock/hack'
       ],
       styleSheetPaths: require('path').resolve(__dirname, 'public/app.scss'),
-    }
+    },
+
+    config(Joi) {
+      retu
