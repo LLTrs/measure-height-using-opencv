@@ -18,4 +18,4 @@ export default function (kibana) {
 
     config(Joi) {
       return Joi.object({
-        ena
+        enabled: Joi.bool
