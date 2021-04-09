@@ -22,4 +22,4 @@ export default function (kibana) {
       }).default();
     },
 
-    init(serve
+    init(server, options) { 
