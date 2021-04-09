@@ -20,4 +20,6 @@ export default function (kibana) {
       return Joi.object({
         enabled: Joi.boolean().default(true),
       }).default();
-    
+    },
+
+    init(serve
