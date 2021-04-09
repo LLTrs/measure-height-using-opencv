@@ -18,4 +18,6 @@ export default function (kibana) {
 
     config(Joi) {
       return Joi.object({
-        enabled: Joi.boolean().default(t
+        enabled: Joi.boolean().default(true),
+      }).default();
+    
