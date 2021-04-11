@@ -22,4 +22,4 @@ export default function (kibana) {
       }).default();
     },
 
-    init(server, options) { 
+    init(server, options) { // eslint-disabl
