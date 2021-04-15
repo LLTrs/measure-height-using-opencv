@@ -23,4 +23,5 @@ export default function (kibana) {
     },
 
     init(server, options) { // eslint-disable-line no-unused-vars
-      // Add server routes and initialize the plugin
+      // Add server routes and initialize the plugin here
+      exampleRoute
