@@ -2,4 +2,5 @@
   "name": "stock",
   "version": "0.0.0",
   "description": "Stock",
-  "main": "
+  "main": "index.js",
+  "kiban
