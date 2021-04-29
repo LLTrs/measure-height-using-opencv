@@ -6,3 +6,6 @@
   "kibana": {
     "version": "kibana",
     "templateVersion": "1.0.0"
+  },
+  "scripts": {
+  
