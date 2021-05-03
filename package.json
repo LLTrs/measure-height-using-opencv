@@ -8,4 +8,4 @@
     "templateVersion": "1.0.0"
   },
   "scripts": {
-    "preinstall": "
+    "preinstall": "node ../../kibana/preinsta
