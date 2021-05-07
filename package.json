@@ -9,4 +9,4 @@
   },
   "scripts": {
     "preinstall": "node ../../kibana/preinstall_check",
-    "kbn"
+    "kbn": "node ../../kibana/scr
