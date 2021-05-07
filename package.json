@@ -8,4 +8,5 @@
     "templateVersion": "1.0.0"
   },
   "scripts": {
-    "preinstall": "node ../../kibana/preinsta
+    "preinstall": "node ../../kibana/preinstall_check",
+    "kbn"
