@@ -11,4 +11,5 @@
     "preinstall": "node ../../kibana/preinstall_check",
     "kbn": "node ../../kibana/scripts/kbn",
     "es": "node ../../kibana/scripts/es",
-    "lint": "eslint 
+    "lint": "eslint .",
+    "start":
