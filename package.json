@@ -12,4 +12,4 @@
     "kbn": "node ../../kibana/scripts/kbn",
     "es": "node ../../kibana/scripts/es",
     "lint": "eslint .",
-    "start":
+    "start": "plugin-helpers start",
