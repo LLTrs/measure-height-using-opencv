@@ -13,4 +13,4 @@
     "es": "node ../../kibana/scripts/es",
     "lint": "eslint .",
     "start": "plugin-helpers start",
-    "test:server": "
+    "test:server": "plugin-helpers test:server"
