@@ -14,4 +14,4 @@
     "lint": "eslint .",
     "start": "plugin-helpers start",
     "test:server": "plugin-helpers test:server",
-    "test:browser"
+    "test:browser": "plugin-helpers 
