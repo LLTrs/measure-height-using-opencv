@@ -17,4 +17,5 @@
     "test:browser": "plugin-helpers test:browser",
     "build": "plugin-helpers build"
   },
-  "d
+  "dependencies": {
+ 
