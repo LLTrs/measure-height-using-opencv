@@ -15,4 +15,6 @@
     "start": "plugin-helpers start",
     "test:server": "plugin-helpers test:server",
     "test:browser": "plugin-helpers test:browser",
-    "build": "plugin-hel
+    "build": "plugin-helpers build"
+  },
+  "d
