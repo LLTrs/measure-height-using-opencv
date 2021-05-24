@@ -20,4 +20,5 @@
   "dependencies": {
     "@kbn/i18n": "link:../../kibana/packages/kbn-i18n"
   },
-  "dev
+  "devDependencies": {
+   
