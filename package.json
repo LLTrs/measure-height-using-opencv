@@ -18,4 +18,4 @@
     "build": "plugin-helpers build"
   },
   "dependencies": {
-    "@kbn/i18n": "link:
+    "@kbn/i18n": "link:../../kibana/packages/k
