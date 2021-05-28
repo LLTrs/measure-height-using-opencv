@@ -21,4 +21,4 @@
     "@kbn/i18n": "link:../../kibana/packages/kbn-i18n"
   },
   "devDependencies": {
-    "@elastic/eslint-config-kiba
+    "@elastic/eslint-config-kibana": "link:..
