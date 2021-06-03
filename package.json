@@ -22,4 +22,4 @@
   },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "link:../../kibana/packages/eslint-config-kibana",
-    "@elastic/eslin
+    "@elastic/eslint-import-resolver
