@@ -25,4 +25,5 @@
     "@elastic/eslint-import-resolver-kibana": "link:../../kibana/packages/kbn-eslint-import-resolver-kibana",
     "@kbn/plugin-helpers": "link:../../kibana/packages/kbn-plugin-helpers",
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.6.
+    "eslint": "^5.6.0",
+    "eslint-p
