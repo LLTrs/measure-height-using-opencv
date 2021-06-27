@@ -29,4 +29,5 @@
     "eslint-plugin-babel": "^5.2.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.26.2",
-    "eslint-plugin-jsx-a11y": "^6.
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-pl
