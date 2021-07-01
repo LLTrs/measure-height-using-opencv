@@ -31,4 +31,5 @@
     "eslint-plugin-jest": "^21.26.2",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-mocha": "^5.2.0",
-    "eslint-plugin-no-unsanitize
+    "eslint-plugin-no-unsanitized": "^3.0.2",
+    
