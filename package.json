@@ -41,4 +41,5 @@
     "d3-time-format": "^2.1.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-boot
+    "react-bootstrap": "^0.31.5",
+ 
