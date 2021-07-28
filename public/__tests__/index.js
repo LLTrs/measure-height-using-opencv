@@ -1,3 +1,4 @@
 import expect from 'expect.js';
 
-describe('sui
+describe('suite', () => {
+  it('i
