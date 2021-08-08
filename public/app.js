@@ -1,4 +1,5 @@
 import React from 'react';
 import { uiModules } from 'ui/modules';
 import chrome from 'ui/chrome';
-import { render, unmountComponentAtNode } from 'rea
+import { render, unmountComponentAtNode } from 'react-dom';
+import { I18n
