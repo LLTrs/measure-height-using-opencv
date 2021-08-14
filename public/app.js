@@ -4,4 +4,5 @@ import chrome from 'ui/chrome';
 import { render, unmountComponentAtNode } from 'react-dom';
 import { I18nProvider } from '@kbn/i18n/react';
 
-import 'ui/
+import 'ui/autoload/styles';
+imp
