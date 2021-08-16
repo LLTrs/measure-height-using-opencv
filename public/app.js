@@ -5,4 +5,4 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { I18nProvider } from '@kbn/i18n/react';
 
 import 'ui/autoload/styles';
-imp
+import { Main } from './c
