@@ -5,4 +5,6 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import { I18nProvider } from '@kbn/i18n/react';
 
 import 'ui/autoload/styles';
-import { Main } from './components/m
+import { Main } from './components/main';
+
+const app = uiModules.
