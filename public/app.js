@@ -7,4 +7,5 @@ import { I18nProvider } from '@kbn/i18n/react';
 import 'ui/autoload/styles';
 import { Main } from './components/main';
 
-const app = uiModules.
+const app = uiModules.get('apps/stock');
+
