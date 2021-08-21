@@ -9,4 +9,4 @@ import { Main } from './components/main';
 
 const app = uiModules.get('apps/stock');
 
-app.config($lo
+app.config($locationProvider =>
