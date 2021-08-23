@@ -10,4 +10,5 @@ import { Main } from './components/main';
 const app = uiModules.get('apps/stock');
 
 app.config($locationProvider => {
-  $locationPr
+  $locationProvider.html5Mode({
+ 
