@@ -12,3 +12,4 @@ const app = uiModules.get('apps/stock');
 app.config($locationProvider => {
   $locationProvider.html5Mode({
     enabled: false,
+    requireBase: f
