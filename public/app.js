@@ -13,4 +13,6 @@ app.config($locationProvider => {
   $locationProvider.html5Mode({
     enabled: false,
     requireBase: false,
-    rewr
+    rewriteLinks: false,
+  });
+}
