@@ -15,4 +15,5 @@ app.config($locationProvider => {
     requireBase: false,
     rewriteLinks: false,
   });
-}
+});
+app.config(stateManage
