@@ -16,4 +16,5 @@ app.config($locationProvider => {
     rewriteLinks: false,
   });
 });
-app.config(stateManagementConfigProvider 
+app.config(stateManagementConfigProvider =>
+  stateMana
