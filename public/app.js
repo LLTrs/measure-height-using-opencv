@@ -17,4 +17,4 @@ app.config($locationProvider => {
   });
 });
 app.config(stateManagementConfigProvider =>
-  stateMana
+  stateManagementConfigProvider.dis
