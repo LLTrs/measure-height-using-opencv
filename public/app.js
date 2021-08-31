@@ -17,4 +17,7 @@ app.config($locationProvider => {
   });
 });
 app.config(stateManagementConfigProvider =>
-  stateManagementConfigProvider.dis
+  stateManagementConfigProvider.disable()
+);
+
+functi
