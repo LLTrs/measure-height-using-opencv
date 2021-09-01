@@ -20,4 +20,4 @@ app.config(stateManagementConfigProvider =>
   stateManagementConfigProvider.disable()
 );
 
-functi
+function RootController
