@@ -20,4 +20,5 @@ app.config(stateManagementConfigProvider =>
   stateManagementConfigProvider.disable()
 );
 
-function RootController($scope, $element, $htt
+function RootController($scope, $element, $http) {
+  const do
