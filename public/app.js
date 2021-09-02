@@ -20,4 +20,4 @@ app.config(stateManagementConfigProvider =>
   stateManagementConfigProvider.disable()
 );
 
-function RootController
+function RootController($scope, $element, $htt
