@@ -21,4 +21,4 @@ app.config(stateManagementConfigProvider =>
 );
 
 function RootController($scope, $element, $http) {
-  const do
+  const domNode = $element[0];
