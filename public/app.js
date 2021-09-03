@@ -22,3 +22,5 @@ app.config(stateManagementConfigProvider =>
 
 function RootController($scope, $element, $http) {
   const domNode = $element[0];
+
+  // render r
