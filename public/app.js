@@ -24,4 +24,5 @@ function RootController($scope, $element, $http) {
   const domNode = $element[0];
 
   // render react to DOM
-  ren
+  render(
+   
