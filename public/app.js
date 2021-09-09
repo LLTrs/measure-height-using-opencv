@@ -26,4 +26,4 @@ function RootController($scope, $element, $http) {
   // render react to DOM
   render(
     <I18nProvider>
-   
+      <Main title="stoc
