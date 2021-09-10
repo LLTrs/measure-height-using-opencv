@@ -27,4 +27,5 @@ function RootController($scope, $element, $http) {
   render(
     <I18nProvider>
       <Main title="stock" httpClient={$http} />
-    </I18nP
+    </I18nProvider>,
+  
