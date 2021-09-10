@@ -26,4 +26,5 @@ function RootController($scope, $element, $http) {
   // render react to DOM
   render(
     <I18nProvider>
-      <Main title="stock" httpClient={$
+      <Main title="stock" httpClient={$http} />
+    </I18nP
