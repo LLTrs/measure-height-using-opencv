@@ -28,4 +28,6 @@ function RootController($scope, $element, $http) {
     <I18nProvider>
       <Main title="stock" httpClient={$http} />
     </I18nProvider>,
-  
+    domNode
+  );
+
