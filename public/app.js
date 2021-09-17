@@ -31,4 +31,5 @@ function RootController($scope, $element, $http) {
     domNode
   );
 
-  // unmount react on
+  // unmount react on controller destroy
+  $scop
