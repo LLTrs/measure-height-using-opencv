@@ -32,4 +32,5 @@ function RootController($scope, $element, $http) {
   );
 
   // unmount react on controller destroy
-  $scope.$on('$destroy', () 
+  $scope.$on('$destroy', () => {
+    unmountCo
