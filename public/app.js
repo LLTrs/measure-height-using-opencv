@@ -37,4 +37,4 @@ function RootController($scope, $element, $http) {
   });
 }
 
-chrome.setRootController('stock', RootControlle
+chrome.setRootController('stock', RootController);
