@@ -25,3 +25,23 @@ import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
 import {
 	OHLCTooltip,
 	SingleValueTooltip,
+} from "react-stockcharts/lib/tooltip";
+import { ema, forceIndex } from "react-stockcharts/lib/indicator";
+import { fitWidth } from "react-stockcharts/lib/helper";
+import { last } from "react-stockcharts/lib/utils";
+
+class CandleStickChartWithForceIndexIndicator extends React.Component {
+	render() {
+		const fi = forceIndex()
+			.merge((d, c) => {d.fi = c;})
+			.accessor(d => d.fi);
+
+		const fiEMA13 = ema()
+			.id(1)
+			.options({ windowSize: 13, sourcePath: "fi" })
+			.merge((d, c) => {d.fiEMA13 = c;})
+			.accessor(d => d.fiEMA13);
+
+		const { type, data: initialData, width, ratio } = this.props;
+
+		const calculatedData = fiEMA13(fi(initialData));
