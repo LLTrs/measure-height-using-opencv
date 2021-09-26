@@ -11,3 +11,17 @@ import {
 	AreaSeries,
 	AlternatingFillAreaSeries,
 	CandlestickSeries,
+	StraightLine,
+} from "react-stockcharts/lib/series";
+import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+import {
+	CrossHairCursor,
+	EdgeIndicator,
+	MouseCoordinateX,
+	MouseCoordinateY,
+} from "react-stockcharts/lib/coordinates";
+
+import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
+import {
+	OHLCTooltip,
+	SingleValueTooltip,
