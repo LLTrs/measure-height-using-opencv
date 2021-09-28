@@ -45,3 +45,20 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 		const { type, data: initialData, width, ratio } = this.props;
 
 		const calculatedData = fiEMA13(fi(initialData));
+		const xScaleProvider = discontinuousTimeScaleProvider
+			.inputDateAccessor(d => d.date);
+		const {
+			data,
+			xScale,
+			xAccessor,
+			displayXAccessor,
+		} = xScaleProvider(calculatedData);
+
+		const start = xAccessor(last(data));
+		const end = xAccessor(data[Math.max(0, data.length - 150)]);
+		const xExtents = [start, end];
+
+		return (
+			<ChartCanvas height={550}
+				width={width}
+				ratio={ratio}
