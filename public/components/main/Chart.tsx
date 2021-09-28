@@ -62,3 +62,20 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 			<ChartCanvas height={550}
 				width={width}
 				ratio={ratio}
+				margin={{ left: 70, right: 70, top: 20, bottom: 30 }}
+				type={type}
+				seriesName="MSFT"
+				data={data}
+				xScale={xScale}
+				xAccessor={xAccessor}
+				displayXAccessor={displayXAccessor}
+				xExtents={xExtents}
+			>
+				<Chart id={1}  height={300}
+					yExtents={d => [d.high, d.low]}
+					padding={{ top: 10, right: 0, bottom: 20, left: 0 }}
+				>
+					<YAxis axisAt="right" orient="right" ticks={5} />
+					<XAxis axisAt="bottom" orient="bottom" showTicks={false} outerTickSize={0} />
+					<MouseCoordinateY
+						at="right"
