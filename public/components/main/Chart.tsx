@@ -92,3 +92,22 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 				</Chart>
 				<Chart id={2} height={150}
 					yExtents={d => d.volume}
+					origin={(w, h) => [0, h - 350]}
+				>
+					<YAxis axisAt="left" orient="left" ticks={5} tickFormat={format(".2s")}/>
+					<MouseCoordinateY
+						at="left"
+						orient="left"
+						displayFormat={format(".4s")} />
+
+					<BarSeries
+						yAccessor={d => d.volume}
+						fill={(d) => d.close > d.open ? "#6BA583" : "#FF0000"}
+						opacity={0.5} />
+				</Chart>
+				<Chart id={3} height={100}
+					yExtents={fi.accessor()}
+					origin={(w, h) => [0, h - 200]}
+					padding={{ top: 10, right: 0, bottom: 10, left: 0 }}
+				>
+					<XAxis axisAt="bottom" orient="bottom" showTicks={false} outerTickSize={0} />
