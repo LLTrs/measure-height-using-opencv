@@ -79,3 +79,16 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 					<XAxis axisAt="bottom" orient="bottom" showTicks={false} outerTickSize={0} />
 					<MouseCoordinateY
 						at="right"
+						orient="right"
+						displayFormat={format(".2f")} />
+
+					<CandlestickSeries />
+
+					<EdgeIndicator itemType="last" orient="right" edgeAt="right"
+						yAccessor={d => d.close}
+						fill={d => d.close > d.open ? "#6BA583" : "#FF0000"} />
+					<OHLCTooltip origin={[-40, -10]}/>
+
+				</Chart>
+				<Chart id={2} height={150}
+					yExtents={d => d.volume}
