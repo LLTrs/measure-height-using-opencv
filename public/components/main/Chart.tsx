@@ -111,3 +111,23 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 					padding={{ top: 10, right: 0, bottom: 10, left: 0 }}
 				>
 					<XAxis axisAt="bottom" orient="bottom" showTicks={false} outerTickSize={0} />
+					<YAxis axisAt="right" orient="right" ticks={4} tickFormat={format(".2s")}/>
+					<MouseCoordinateY
+						at="right"
+						orient="right"
+						displayFormat={format(".4s")} />
+
+					<AreaSeries baseAt={scale => scale(0)} yAccessor={fi.accessor()} />
+					<StraightLine yValue={0} />
+
+					<SingleValueTooltip
+						yAccessor={fi.accessor()}
+						yLabel="ForceIndex (1)"
+						yDisplayFormat={format(".4s")}
+						origin={[-40, 15]}
+					/>
+				</Chart>
+				<Chart id={4} height={100}
+					yExtents={fiEMA13.accessor()}
+					origin={(w, h) => [0, h - 100]}
+					padding={{ top: 10, right: 0, bottom: 10, left: 0 }}
