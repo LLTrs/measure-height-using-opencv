@@ -131,3 +131,19 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 					yExtents={fiEMA13.accessor()}
 					origin={(w, h) => [0, h - 100]}
 					padding={{ top: 10, right: 0, bottom: 10, left: 0 }}
+				>
+					<XAxis axisAt="bottom" orient="bottom" />
+					<YAxis axisAt="right" orient="right" ticks={4} tickFormat={format(".2s")}/>
+
+					<MouseCoordinateX
+						at="bottom"
+						orient="bottom"
+						displayFormat={timeFormat("%Y-%m-%d")} />
+					<MouseCoordinateY
+						at="right"
+						orient="right"
+						displayFormat={format(".4s")} />
+
+					{/* <AreaSeries baseAt={scale => scale(0)} yAccessor={fiEMA13.accessor()} /> */}
+					<AlternatingFillAreaSeries
+						baseAt={0}
