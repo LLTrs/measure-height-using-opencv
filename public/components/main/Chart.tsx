@@ -147,3 +147,26 @@ class CandleStickChartWithForceIndexIndicator extends React.Component {
 					{/* <AreaSeries baseAt={scale => scale(0)} yAccessor={fiEMA13.accessor()} /> */}
 					<AlternatingFillAreaSeries
 						baseAt={0}
+						yAccessor={fiEMA13.accessor()}
+					/>
+					<StraightLine yValue={0} />
+
+					<SingleValueTooltip
+						yAccessor={fiEMA13.accessor()}
+						yLabel={`ForceIndex (${fiEMA13.options().windowSize})`}
+						yDisplayFormat={format(".4s")}
+						origin={[-40, 15]}
+					/>
+				</Chart>
+				<CrossHairCursor />
+			</ChartCanvas>
+		);
+	}
+}
+
+CandleStickChartWithForceIndexIndicator.propTypes = {
+	data: PropTypes.array.isRequired,
+	width: PropTypes.number.isRequired,
+	ratio: PropTypes.number.isRequired,
+	type: PropTypes.oneOf(["svg", "hybrid"]).isRequired,
+};
