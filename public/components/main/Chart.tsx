@@ -170,3 +170,10 @@ CandleStickChartWithForceIndexIndicator.propTypes = {
 	ratio: PropTypes.number.isRequired,
 	type: PropTypes.oneOf(["svg", "hybrid"]).isRequired,
 };
+
+CandleStickChartWithForceIndexIndicator.defaultProps = {
+	type: "svg",
+};
+CandleStickChartWithForceIndexIndicator = fitWidth(CandleStickChartWithForceIndexIndicator);
+
+export default CandleStickChartWithForceIndexIndicator;
