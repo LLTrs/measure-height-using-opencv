@@ -5,4 +5,5 @@ import {
   EuiTitle,
   EuiPageBody,
   EuiPageContent,
-  EuiPageCont
+  EuiPageContentHeader,
+  Eui
