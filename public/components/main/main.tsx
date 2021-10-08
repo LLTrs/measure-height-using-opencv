@@ -6,4 +6,5 @@ import {
   EuiPageBody,
   EuiPageContent,
   EuiPageContentHeader,
-  Eui
+  EuiPageContentBody,
+  E
