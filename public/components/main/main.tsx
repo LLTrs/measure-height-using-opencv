@@ -7,4 +7,5 @@ import {
   EuiPageContent,
   EuiPageContentHeader,
   EuiPageContentBody,
-  E
+  EuiForm,
+  EuiFo
