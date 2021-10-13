@@ -10,4 +10,5 @@ import {
   EuiForm,
   EuiFormRow,
   EuiSelect,
-  Eui
+  EuiPanel,
+  EuiText
