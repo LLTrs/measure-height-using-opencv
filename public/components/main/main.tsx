@@ -12,3 +12,4 @@ import {
   EuiSelect,
   EuiPanel,
   EuiText
+} from '@elastic/eui';
