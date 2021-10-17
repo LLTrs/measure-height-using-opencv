@@ -13,4 +13,4 @@ import {
   EuiPanel,
   EuiText
 } from '@elastic/eui';
-import { FormattedMessag
+import { FormattedMessage } from '@k
