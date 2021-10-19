@@ -13,4 +13,6 @@ import {
   EuiPanel,
   EuiText
 } from '@elastic/eui';
-import { FormattedMessage } from '@k
+import { FormattedMessage } from '@kbn/i18n/react';
+
+import Ch
