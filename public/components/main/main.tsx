@@ -16,4 +16,5 @@ import {
 import { FormattedMessage } from '@kbn/i18n/react';
 
 import Chart from './Chart';
-import { getData } f
+import { getData } from "./utils"
+impor
