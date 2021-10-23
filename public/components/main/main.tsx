@@ -15,4 +15,5 @@ import {
 } from '@elastic/eui';
 import { FormattedMessage } from '@kbn/i18n/react';
 
-import Chart from './Char
+import Chart from './Chart';
+import { getData } f
