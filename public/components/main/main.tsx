@@ -19,4 +19,4 @@ import Chart from './Chart';
 import { getData } from "./utils"
 import { TypeChooser } from "react-stockcharts/lib/helper";
 
-class ChartComponent ex
+class ChartComponent extends React.Co
