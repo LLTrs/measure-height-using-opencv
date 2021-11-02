@@ -21,4 +21,4 @@ import { TypeChooser } from "react-stockcharts/lib/helper";
 
 class ChartComponent extends React.Component {
 	componentDidMount() {
-		ge
+		getData().then(data => 
