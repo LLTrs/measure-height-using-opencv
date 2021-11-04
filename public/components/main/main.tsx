@@ -25,4 +25,5 @@ class ChartComponent extends React.Component {
 			this.setState({ data })
 		})
 	}
-	render()
+	render() {
+		if (this.sta
