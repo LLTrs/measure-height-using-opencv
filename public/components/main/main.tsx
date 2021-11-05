@@ -26,4 +26,5 @@ class ChartComponent extends React.Component {
 		})
 	}
 	render() {
-		if (this.sta
+		if (this.state == null) {
+			
