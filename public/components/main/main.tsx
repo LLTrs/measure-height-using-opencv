@@ -27,4 +27,7 @@ class ChartComponent extends React.Component {
 	}
 	render() {
 		if (this.state == null) {
-			return <div>Loading..
+			return <div>Loading...</div>
+		}
+		return (
+ 
