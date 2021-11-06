@@ -30,4 +30,5 @@ class ChartComponent extends React.Component {
 			return <div>Loading...</div>
 		}
 		return (
- 
+      /*
+			<TypeCh
