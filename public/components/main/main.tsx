@@ -31,4 +31,5 @@ class ChartComponent extends React.Component {
 		}
 		return (
       /*
-			<TypeCh
+			<TypeChooser>
+				{type => <Chart
