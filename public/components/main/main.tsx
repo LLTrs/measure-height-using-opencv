@@ -32,4 +32,5 @@ class ChartComponent extends React.Component {
 		return (
       /*
 			<TypeChooser>
-				{type => <Chart type={type} data={this.state
+				{type => <Chart type={type} data={this.state.data} />}
+      </
