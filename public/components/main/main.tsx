@@ -34,4 +34,5 @@ class ChartComponent extends React.Component {
 			<TypeChooser>
 				{type => <Chart type={type} data={this.state.data} />}
       </TypeChooser>
- 
+      */
+     <Chart type="h
