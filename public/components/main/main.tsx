@@ -35,4 +35,4 @@ class ChartComponent extends React.Component {
 				{type => <Chart type={type} data={this.state.data} />}
       </TypeChooser>
       */
-     <Chart type="h
+     <Chart type="hybrid" data={this.
