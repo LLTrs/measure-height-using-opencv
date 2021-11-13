@@ -40,4 +40,4 @@ class ChartComponent extends React.Component {
 	}
 }
 
-exp
+export class Main exten
