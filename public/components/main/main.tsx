@@ -41,3 +41,4 @@ class ChartComponent extends React.Component {
 }
 
 export class Main extends React.Component {
+  constructor(pro
