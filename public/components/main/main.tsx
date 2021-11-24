@@ -46,4 +46,5 @@ export class Main extends React.Component {
     this.state = {};
   }
 
-  compon
+  componentDidMount() {
+    
