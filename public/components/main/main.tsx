@@ -48,4 +48,4 @@ export class Main extends React.Component {
 
   componentDidMount() {
     /*
-       FOR EXAMPLE 
+       FOR EXAMPLE PURPOSES ON
