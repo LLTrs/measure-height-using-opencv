@@ -48,4 +48,5 @@ export class Main extends React.Component {
 
   componentDidMount() {
     /*
-       FOR EXAMPLE PURPOSES ONLY.  There are much b
+       FOR EXAMPLE PURPOSES ONLY.  There are much better ways to
+       man
