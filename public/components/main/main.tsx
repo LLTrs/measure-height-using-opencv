@@ -49,4 +49,4 @@ export class Main extends React.Component {
   componentDidMount() {
     /*
        FOR EXAMPLE PURPOSES ONLY.  There are much better ways to
-       manage state and up
+       manage state and update your UI than 
