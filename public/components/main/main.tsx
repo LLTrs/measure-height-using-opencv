@@ -51,4 +51,4 @@ export class Main extends React.Component {
        FOR EXAMPLE PURPOSES ONLY.  There are much better ways to
        manage state and update your UI than this.
     */
-    cons
+    const { httpClient } = th
