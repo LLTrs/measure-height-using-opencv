@@ -56,3 +56,5 @@ export class Main extends React.Component {
       this.setState({ time: resp.data.time });
     });
   }
+  render() {
+ 
