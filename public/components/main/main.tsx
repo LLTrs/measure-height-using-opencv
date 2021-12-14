@@ -54,3 +54,5 @@ export class Main extends React.Component {
     const { httpClient } = this.props;
     httpClient.get('../api/stock/example').then((resp) => {
       this.setState({ time: resp.data.time });
+    });
+  }
