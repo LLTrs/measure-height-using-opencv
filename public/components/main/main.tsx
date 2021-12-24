@@ -57,4 +57,5 @@ export class Main extends React.Component {
     });
   }
   render() {
-    const { tit
+    const { title } = this.props;
+ 
