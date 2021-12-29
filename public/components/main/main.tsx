@@ -59,4 +59,5 @@ export class Main extends React.Component {
   render() {
     const { title } = this.props;
     return (
-      <EuiPage
+      <EuiPage>
+        <EuiPageBody>
