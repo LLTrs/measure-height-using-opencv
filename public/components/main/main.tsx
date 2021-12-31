@@ -63,4 +63,5 @@ export class Main extends React.Component {
         <EuiPageBody>
           <EuiPageHeader>
             <EuiTitle size="l">
-         
+              <h1>
+       
