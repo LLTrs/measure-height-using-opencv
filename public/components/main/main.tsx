@@ -64,4 +64,5 @@ export class Main extends React.Component {
           <EuiPageHeader>
             <EuiTitle size="l">
               <h1>
-                <FormattedMess
+                <FormattedMessage
+    
