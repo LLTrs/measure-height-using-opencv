@@ -65,4 +65,5 @@ export class Main extends React.Component {
             <EuiTitle size="l">
               <h1>
                 <FormattedMessage
-                  id="stock.helloWorldTex
+                  id="stock.helloWorldText"
+            
