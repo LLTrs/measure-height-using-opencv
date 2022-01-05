@@ -66,4 +66,4 @@ export class Main extends React.Component {
               <h1>
                 <FormattedMessage
                   id="stock.helloWorldText"
-                  defaultMess
+                  defaultMessage="{title} Hello 
