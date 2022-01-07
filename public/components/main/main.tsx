@@ -68,4 +68,5 @@ export class Main extends React.Component {
                   id="stock.helloWorldText"
                   defaultMessage="{title} Hello World!"
                   values={{ title }}
-     
+                />
+   
