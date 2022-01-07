@@ -70,4 +70,5 @@ export class Main extends React.Component {
                   values={{ title }}
                 />
               </h1>
-  
+            </EuiTitle>
+   
