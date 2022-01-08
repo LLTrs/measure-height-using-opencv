@@ -71,4 +71,4 @@ export class Main extends React.Component {
                 />
               </h1>
             </EuiTitle>
-   
+          </EuiPage
