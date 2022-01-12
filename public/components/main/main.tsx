@@ -75,4 +75,5 @@ export class Main extends React.Component {
           <EuiPageContent>
             <EuiPageContentHeader>
               <EuiTitle>
-                <
+                <h2>
+                  
