@@ -76,4 +76,4 @@ export class Main extends React.Component {
             <EuiPageContentHeader>
               <EuiTitle>
                 <h2>
-                  
+                  <FormattedMessage
