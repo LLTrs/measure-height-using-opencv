@@ -77,4 +77,4 @@ export class Main extends React.Component {
               <EuiTitle>
                 <h2>
                   <FormattedMessage
-              
+                    id="stock.congratula
