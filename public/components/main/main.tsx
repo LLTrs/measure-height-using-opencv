@@ -78,4 +78,4 @@ export class Main extends React.Component {
                 <h2>
                   <FormattedMessage
                     id="stock.congratulationsTitle"
-           
+                    defaultMes
