@@ -79,4 +79,5 @@ export class Main extends React.Component {
                   <FormattedMessage
                     id="stock.congratulationsTitle"
                     defaultMessage="Congratulations"
-     
+                  />
+ 
