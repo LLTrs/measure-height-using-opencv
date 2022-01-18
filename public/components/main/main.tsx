@@ -80,4 +80,5 @@ export class Main extends React.Component {
                     id="stock.congratulationsTitle"
                     defaultMessage="Congratulations"
                   />
- 
+                </h2>
+  
