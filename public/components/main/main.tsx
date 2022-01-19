@@ -81,4 +81,5 @@ export class Main extends React.Component {
                     defaultMessage="Congratulations"
                   />
                 </h2>
-              </EuiTi
+              </EuiTitle>
+            </
