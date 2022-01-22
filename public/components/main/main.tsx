@@ -84,4 +84,4 @@ export class Main extends React.Component {
               </EuiTitle>
             </EuiPageContentHeader>
             <EuiPageContentBody>
-              <EuiPanel 
+              <EuiPanel style={{ maxWi
