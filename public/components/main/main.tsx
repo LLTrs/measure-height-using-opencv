@@ -85,4 +85,4 @@ export class Main extends React.Component {
             </EuiPageContentHeader>
             <EuiPageContentBody>
               <EuiPanel style={{ maxWidth: 300 }}>
-  
+                <EuiForm
