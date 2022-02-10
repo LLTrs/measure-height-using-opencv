@@ -89,4 +89,5 @@ export class Main extends React.Component {
                   <EuiFormRow
                       label="Select ticker"
                       compressed
-                   
+                    >
+                 
