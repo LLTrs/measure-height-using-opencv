@@ -91,4 +91,4 @@ export class Main extends React.Component {
                       compressed
                     >
                   <EuiSelect
-   
+                    hasNoIn
