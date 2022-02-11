@@ -90,4 +90,5 @@ export class Main extends React.Component {
                       label="Select ticker"
                       compressed
                     >
-                 
+                  <EuiSelect
+   
