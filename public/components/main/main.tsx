@@ -92,4 +92,5 @@ export class Main extends React.Component {
                     >
                   <EuiSelect
                     hasNoInitialSelection
-                    optio
+                    options={[
+   
