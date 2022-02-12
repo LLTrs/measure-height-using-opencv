@@ -93,4 +93,4 @@ export class Main extends React.Component {
                   <EuiSelect
                     hasNoInitialSelection
                     options={[
-                      { value
+                      { value: 'AAPL', text: 'AAP
