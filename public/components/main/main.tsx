@@ -94,4 +94,5 @@ export class Main extends React.Component {
                     hasNoInitialSelection
                     options={[
                       { value: 'AAPL', text: 'AAPL' },
-                      { value: 'UUP', te
+                      { value: 'UUP', text: 'UUP' },
+   
