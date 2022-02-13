@@ -95,4 +95,6 @@ export class Main extends React.Component {
                     options={[
                       { value: 'AAPL', text: 'AAPL' },
                       { value: 'UUP', text: 'UUP' },
-   
+                    ]}
+
+  
