@@ -102,4 +102,5 @@ export class Main extends React.Component {
                   </EuiForm>
               </EuiPanel>
               <ChartComponent />
-            </EuiPageConten
+            </EuiPageContentBody>
+          
