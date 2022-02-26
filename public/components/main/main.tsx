@@ -104,4 +104,5 @@ export class Main extends React.Component {
               <ChartComponent />
             </EuiPageContentBody>
           </EuiPageContent>
-        </Eu
+        </EuiPageBody>
+      </E
