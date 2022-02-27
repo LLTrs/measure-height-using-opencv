@@ -105,4 +105,7 @@ export class Main extends React.Component {
             </EuiPageContentBody>
           </EuiPageContent>
         </EuiPageBody>
-      </E
+      </EuiPage>
+    );
+  }
+}
