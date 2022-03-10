@@ -3,4 +3,5 @@ import { timeParse } from "d3-time-format";
 
 function parseData(parse) {
 	return function(d) {
-		d
+		d.date = parse(d.date);
+		
