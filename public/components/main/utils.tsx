@@ -5,3 +5,4 @@ function parseData(parse) {
 	return function(d) {
 		d.date = parse(d.date);
 		d.open = +d.open;
+		d.high = +d.hi
