@@ -6,4 +6,5 @@ function parseData(parse) {
 		d.date = parse(d.date);
 		d.open = +d.open;
 		d.high = +d.high;
-		d.lo
+		d.low = +d.low;
+		d.
