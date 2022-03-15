@@ -7,4 +7,5 @@ function parseData(parse) {
 		d.open = +d.open;
 		d.high = +d.high;
 		d.low = +d.low;
-		d.close = +d.clos
+		d.close = +d.close;
+		d.volume = +d.volume
