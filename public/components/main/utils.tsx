@@ -8,4 +8,9 @@ function parseData(parse) {
 		d.high = +d.high;
 		d.low = +d.low;
 		d.close = +d.close;
-		d.volume = +d.volume
+		d.volume = +d.volume;
+
+		return d;
+	};
+}
+
