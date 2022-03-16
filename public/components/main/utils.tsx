@@ -14,4 +14,4 @@ function parseData(parse) {
 	};
 }
 
-const parseDate
+const parseDate = timeParse("%Y-%m-%d");
