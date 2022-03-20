@@ -17,4 +17,4 @@ function parseData(parse) {
 const parseDate = timeParse("%Y-%m-%d");
 
 export function getData() {
-	const promiseMSFT = fetch("//rrag.github.io/react-stoc
+	const promiseMSFT = fetch("//rrag.github.io/react-stockcharts/data/M
