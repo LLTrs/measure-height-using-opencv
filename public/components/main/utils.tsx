@@ -20,4 +20,5 @@ export function getData() {
 	const promiseMSFT = fetch("//rrag.github.io/react-stockcharts/data/MSFT.tsv")
 		.then(response => response.text())
 		.then(data => tsvParse(data, parseData(parseDate)))
-	return promiseMS
+	return promiseMSFT;
+}
