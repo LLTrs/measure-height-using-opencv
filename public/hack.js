@@ -1,1 +1,3 @@
-import $ from
+import $ from 'jquery';
+
+$(do
