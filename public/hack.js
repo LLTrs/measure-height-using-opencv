@@ -1,3 +1,3 @@
 import $ from 'jquery';
 
-$(do
+$(document.body).on('
