@@ -1,3 +1,4 @@
 import $ from 'jquery';
 
-$(document.body).on('keypress', function (eve
+$(document.body).on('keypress', function (event) {
+  if (event.
