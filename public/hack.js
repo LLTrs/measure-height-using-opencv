@@ -1,3 +1,3 @@
 import $ from 'jquery';
 
-$(document.body).on('
+$(document.body).on('keypress', function (eve
