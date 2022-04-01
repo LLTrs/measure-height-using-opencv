@@ -1,1 +1,3 @@
-import expect f
+import expect from 'expect.js';
+
+des
