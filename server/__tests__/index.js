@@ -2,4 +2,4 @@ import expect from 'expect.js';
 
 describe('suite', () => {
   it('is a test', () => {
-    expect
+    expect(true).to.equal(t
