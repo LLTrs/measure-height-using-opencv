@@ -1,3 +1,4 @@
 import expect from 'expect.js';
 
-describe('suite', () =
+describe('suite', () => {
+  it('is a test', ()
