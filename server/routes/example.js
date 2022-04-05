@@ -1,1 +1,3 @@
-export default function (serv
+export default function (server) {
+
+  server.ro
