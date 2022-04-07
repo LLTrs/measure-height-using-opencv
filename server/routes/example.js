@@ -1,4 +1,5 @@
 export default function (server) {
 
   server.route({
-    path: '/api/
+    path: '/api/stock/example',
+    m
