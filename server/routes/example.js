@@ -4,4 +4,4 @@ export default function (server) {
     path: '/api/stock/example',
     method: 'GET',
     handler() {
-      return { time: (new Date()
+      return { time: (new Date()).toISOString() }
