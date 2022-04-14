@@ -6,4 +6,6 @@ export default function (server) {
     handler() {
       return { time: (new Date()).toISOString() };
     }
-  })
+  });
+
+}

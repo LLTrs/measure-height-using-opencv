@@ -1,0 +1,13 @@
+
+{
+  "formats": {
+    "number": {
+      "currency": {
+        "style": "currency"
+      },
+      "percent": {
+        "style": "percent"
+      }
+    },
+    "date": {
+      "short": {
