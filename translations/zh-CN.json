@@ -43,3 +43,25 @@
         "second": "numeric"
       },
       "long": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      },
+      "full": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      }
+    },
+    "relative": {
+      "years": {
+        "units": "year"
+      },
+      "months": {
+        "units": "month"
+      },
+      "days": {
+        "units": "day"
+      },
