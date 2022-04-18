@@ -93,3 +93,25 @@
   version "7.3.3"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.3.3.tgz#6c44d1cdac2a7625b624216657d5bc6c107ab436"
   integrity sha512-2tACZ80Wg09UnPg5uGAOUvvInaqLk3l/IAhQzlxLQOIXacr6bMsra5SH6AWw/hIDRCSbCdHP2KzSOD+cT7TzMQ==
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.17.11"
+    to-fast-properties "^2.0.0"
+
+"@elastic/eslint-config-kibana@link:../../kibana/packages/eslint-config-kibana":
+  version "0.0.0"
+  uid ""
+
+"@elastic/eslint-import-resolver-kibana@link:../../kibana/packages/kbn-eslint-import-resolver-kibana":
+  version "0.0.0"
+  uid ""
+
+"@kbn/i18n@link:../../kibana/packages/kbn-i18n":
+  version "0.0.0"
+  uid ""
+
+"@kbn/plugin-helpers@link:../../kibana/packages/kbn-plugin-helpers":
+  version "0.0.0"
+  uid ""
+
+"@mrmlnc/readdir-enhanced@^2.2.1":
