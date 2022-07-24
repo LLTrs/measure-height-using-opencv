@@ -1653,3 +1653,20 @@ eslint-plugin-no-unsanitized@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-unsanitized/-/eslint-plugin-no-unsanitized-3.0.2.tgz#83c6fcf8e34715112757e03dd4ee436dce29ed45"
   integrity sha512-JnwpoH8Sv4QOjrTDutENBHzSnyYtspdjtglYtqUtAHe6f6LLKqykJle+UwFPg23GGwt5hI3amS9CRDezW8GAww==
+
+eslint-plugin-prefer-object-spread@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-object-spread/-/eslint-plugin-prefer-object-spread-1.2.1.tgz#27fb91853690cceb3ae6101d9c8aecc6a67a402c"
+  integrity sha1-J/uRhTaQzOs65hAdnIrsxqZ6QCw=
+
+eslint-plugin-react@^7.11.1:
+  version "7.12.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.12.4.tgz#b1ecf26479d61aee650da612e425c53a99f48c8c"
+  integrity sha512-1puHJkXJY+oS1t467MjbqjvX53uQ05HXwjqDgdbGBqf5j9eeydI54G3KwiJmWciQ0HTBacIKw2jgwSBSH3yfgQ==
+  dependencies:
+    array-includes "^3.0.3"
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.0.1"
+    object.fromentries "^2.0.0"
+    prop-types "^15.6.2"
